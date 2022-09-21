@@ -1,0 +1,28 @@
+.dirt-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dirt {
+  width: 40rem;
+  height: 3rem;
+  background-color: #ab784c;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.more-dirt {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+  background-color: #ab784c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=dirt.css.map */

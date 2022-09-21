@@ -1,0 +1,33 @@
+.grass {
+  width: 700px;
+  height: 80px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.grass svg {
+  fill: #5d9345;
+  -webkit-animation: skew 3s infinite;
+          animation: skew 3s infinite;
+  transform: skew;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes skew {
+  0% {
+    transform: skewX(13deg) translate(-7px);
+  }
+  100% {
+    transform: skewX(-13deg) translate(7px);
+  }
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(13deg) translate(-7px);
+  }
+  100% {
+    transform: skewX(-13deg) translate(7px);
+  }
+}/*# sourceMappingURL=Grass.css.map */

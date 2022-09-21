@@ -1,0 +1,29 @@
+.banner {
+  background-color: #55562f;
+  color: #fefefe;
+  height: 4vh;
+  font-family: "neutratext";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
+}
+
+.header {
+  background: #f8f8f8;
+}
+
+.header .container {
+  height: 11vh;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1em;
+}
+
+.logo {
+  font-family: "hippie-mojo";
+  font-size: 7.5vh;
+  color: #ab784c;
+}
