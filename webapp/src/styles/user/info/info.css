@@ -1,0 +1,16 @@
+.info {
+  padding: 2rem;
+}
+
+.cell {
+  background: #deded1;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  border-radius: 6rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}/*# sourceMappingURL=info.css.map */
