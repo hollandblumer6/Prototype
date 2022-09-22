@@ -5,27 +5,27 @@ import Avatar from "@mui/material/Avatar";
 
 function Info() {
   return (
-    <>
-      <div>
+    <div className="info">
+      <div className="profile">
         <div>
-          <Avatar />{" "}
+          <Avatar sx={{ height: "70px", width: "70px" }} />{" "}
         </div>
         <div>
-          <p> Username </p>
-          <div className="profile-buttons">
+          <p> @hollandblumer </p>
+          <div className="buttons">
             <button> Support </button>
             <button> ... </button>
           </div>
         </div>
       </div>
 
-      <div className="info grid">
+      <div className="grid">
         <div className="cell"> 203 Brands </div>
         <div className="cell"> Strength </div>
         <div className="cell"> 2k High Fives </div>
         <div className="cell"> Charlotte, NC </div>
       </div>
-    </>
+    </div>
   );
 }
 

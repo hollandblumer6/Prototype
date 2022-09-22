@@ -1,5 +1,5 @@
 import React from "react";
-import Activity from "./Activity";
+import Activity from "./activity/Activity";
 import Info from "./Info";
 import Stats from "./Stats/Stats";
 

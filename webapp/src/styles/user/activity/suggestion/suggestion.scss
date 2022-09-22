@@ -1,0 +1,16 @@
+.suggestions {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestion {
+  background: tan;
+  height: 4rem;
+  margin-top: 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,9 +1,37 @@
 .info {
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 15rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 13.5rem;
+}
+
+.profile .buttons {
+  width: 5.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons button {
+  background-color: #ab784c;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.4rem;
 }
 
 .cell {
-  background: #deded1;
+  background: #f2f2f2;
   padding: 1rem;
   color: rgb(0, 0, 0);
   border-radius: 6rem;

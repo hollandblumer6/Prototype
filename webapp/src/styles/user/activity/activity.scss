@@ -1,0 +1,31 @@
+.activity {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.activity-buttons {
+  margin: 2rem;
+  width: 17rem;
+  display: flex;
+  justify-content: space-between;
+}
+.activity .button {
+  border: none;
+  border-bottom: 1.7px solid rgb(21, 21, 21);
+  background: none;
+  color: rgb(21, 21, 21);
+}
+
+.activity .button:hover {
+  border: none;
+  border-bottom: 1.7px solid rgb(182, 179, 179);
+  background: none;
+  color: rgb(182, 179, 179);
+}
+
+.activity .button:active {
+  border: none;
+  border-bottom: 1.7px solid rgb(156, 155, 158);
+  background: none;
+}
