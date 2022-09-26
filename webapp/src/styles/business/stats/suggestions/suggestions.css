@@ -1,31 +1,29 @@
-.box {
-  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+.suggestions-container {
+  border-radius: 4%;
+  padding: 10px;
+  margin: 10px;
 }
 
-.box2 {
-  height: 150px;
-  width: 150px;
-  background: #fefefe;
-  border-radius: 20px;
-  margin: 20px;
-  box-shadow: inset -5px -5px 9px rgba(255, 255, 255, 0.45), inset 5px 5px 9px rgba(94, 104, 121, 0.3);
+.suggestions-container .suggestion {
+  height: 8vh;
+  width: 30vw;
+  background: rgb(242, 242, 242);
+  background: #d7cea9;
+  background: #e7e3e0;
+  background: #e4ddcf;
+  background: #e3ded6;
+  background: #edece9;
+  border: 1px solid #f6f6f6;
+  border-radius: 1.2rem;
 }
 
-.circle {
+.avatar-circle {
+  background: #5d9345;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  position: relative;
-  border-radius: 50%;
-  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
-}
-
-.circle::after {
-  content: "";
-  position: absolute;
-  height: 80%;
-  width: 80%;
-  background-color: transparent;
-  border-radius: 50%;
-  box-shadow: inset -5px -5px 9px rgba(255, 255, 255, 0.45), inset 5px 5px 9px rgba(94, 104, 121, 0.3);
+  justify-content: center;
 }/*# sourceMappingURL=suggestions.css.map */

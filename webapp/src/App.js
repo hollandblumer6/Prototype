@@ -14,7 +14,7 @@ function App() {
 
       <main>
         <BusinessDashboard />
-        {/* <Dashboard /> */}
+        <Dashboard />
       </main>
     </div>
   );

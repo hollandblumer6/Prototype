@@ -1,6 +1,8 @@
 import React from "react";
 import Info from "./info/Info";
-import Suggestions from "./stats/Suggestions";
+import Stats from "./stats/Stats";
+
+import Activity from "./activity/Activity";
 import "../../styles/business/dashboard/dashboard.css";
 
 function Dashboard() {
@@ -9,8 +11,9 @@ function Dashboard() {
       <div className="profile-info">
         {" "}
         <Info />
-        <Suggestions />
+        <Stats />
       </div>
+      <Activity />
     </div>
   );
 }

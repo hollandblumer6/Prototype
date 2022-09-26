@@ -10,6 +10,7 @@ function Search() {
         size="lg"
         className="pause-btn"
       />
+      SEARCH
     </div>
   );
 }

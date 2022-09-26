@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: space-between;
   height: 15rem;
+  padding: 20px;
+  border-radius: 4%;
 }
 
 .profile {
@@ -12,6 +14,7 @@
   justify-content: space-between;
   margin-top: 1rem;
   width: 13.5rem;
+  color: #272626;
 }
 
 .profile .buttons {
@@ -23,17 +26,19 @@
 }
 
 .buttons button {
-  background-color: #ab784c;
-  color: white;
+  background: #fefefe;
+  border: 0.8px solid #dbdbdb;
+  color: #272626;
   border-radius: 0.5rem;
-  border: none;
   padding: 0.4rem;
 }
 
 .cell {
-  background: #f2f2f2;
+  background: #efefef;
+  background: #edece9;
+  border: 0.5px solid #ffffff;
   padding: 1rem;
-  color: rgb(0, 0, 0);
+  color: #272626;
   border-radius: 6rem;
 }
 
