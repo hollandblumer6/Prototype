@@ -4,26 +4,70 @@
   margin: 10px;
 }
 
-.suggestions-container .suggestion {
-  height: 8vh;
-  width: 30vw;
+.suggestions-container .suggestions {
+  height: 9vh;
+  width: 40rem;
   background: rgb(242, 242, 242);
   background: #d7cea9;
   background: #e7e3e0;
   background: #e4ddcf;
   background: #e3ded6;
   background: #edece9;
+  background: #efefef;
   border: 1px solid #f6f6f6;
   border-radius: 1.2rem;
+  margin-top: 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0rem 2rem 1rem 2rem;
+}
+
+.suggestion-circle {
+  background: #5d9345;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1px 1rem;
 }
 
 .avatar-circle {
   background: #5d9345;
-  width: 2.5rem;
-  height: 2.5rem;
   border-radius: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.content {
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.black {
+  background-color: #ab784c;
+  padding: 0.3rem 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 4rem;
+}
+
+.avatar-followers {
+  display: flex;
+}
+
+.avatar-follower {
+  margin-left: -1.3rem;
+}
+
+.support-share {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=suggestions.css.map */

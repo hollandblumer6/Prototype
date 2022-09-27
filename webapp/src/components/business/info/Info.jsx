@@ -24,10 +24,12 @@ function Info() {
         </div>
 
         <div className="grid">
-          <div className="cell"> 203 Brands </div>
+          <div className="cell"> 203 Brands</div>
           <div className="cell"> Strength </div>
           <div className="cell"> 2k High Fives </div>
-          <div className="cell"> Charlotte, NC </div>
+          <div className="cell"> Charlotte, NC</div>
+          <div className="cell"> Charlotte, NC</div>
+          <div className="cell"> Charlotte, NC</div>
         </div>
       </div>
     </div>

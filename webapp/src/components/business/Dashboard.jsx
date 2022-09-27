@@ -8,12 +8,20 @@ import "../../styles/business/dashboard/dashboard.css";
 function Dashboard() {
   return (
     <div>
-      <div className="profile-info">
-        {" "}
-        <Info />
-        <Stats />
-      </div>
-      <Activity />
+      <section>
+        <div className="profile-info">
+          {" "}
+          <article>
+            <Info />
+          </article>
+          <article>
+            <Stats />
+          </article>
+        </div>
+      </section>
+      <section>
+        <Activity />
+      </section>
     </div>
   );
 }

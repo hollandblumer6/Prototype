@@ -5,56 +5,116 @@ import {
   faLeaf,
   faBoxOpen,
   faCubesStacked,
+  faCirclePlus,
+  faShareNodes,
 } from "@fortawesome/free-solid-svg-icons";
+import { Avatar } from "@mui/material";
 
 function Suggestions() {
   return (
     <div className="suggestions-container">
-      <div className="suggestion">
-        <div className="avatar-circle">
-          <FontAwesomeIcon
-            icon={faBoxOpen}
-            size="lg"
-            className="pause-btn"
-            color="#f6f6f6"
-          />
+      <div className="suggestions">
+        <div className="suggestion-circle">
+          <div className="avatar-circle">
+            <FontAwesomeIcon
+              icon={faBoxOpen}
+              size="lg"
+              className="pause-btn"
+              color="#f6f6f6"
+            />
+          </div>
+          <p className="content"> Sustainable Packaging </p>
         </div>
-        <p> Sustainable Packaging </p>
-        <p>
+        <p className="content black">
           {" "}
           <b>2k+</b> supporters{" "}
         </p>
       </div>
-      <div className="suggestion">
+      <div className="suggestions">
         {" "}
-        <div className="avatar-circle">
-          <FontAwesomeIcon
-            icon={faLeaf}
-            size="lg"
-            className="pause-btn"
-            color="#f6f6f6"
-          />
+        <div className="suggestion-circle">
+          <div className="avatar-circle">
+            <FontAwesomeIcon
+              icon={faLeaf}
+              size="lg"
+              className="pause-btn"
+              color="#f6f6f6"
+            />
+          </div>
+          <p className="content"> Join Platform </p>
         </div>
-        <p> Join Platform </p>
-        <p>
+        <p className="content black">
           {" "}
-          <b>2k+</b> supporters{" "}
+          <b> 2k+ </b> supporters{" "}
         </p>
       </div>
-      <div className="suggestion">
-        <div className="avatar-circle">
+      <div className="suggestions">
+        <div className="suggestion-circle">
+          <div className="avatar-circle">
+            <FontAwesomeIcon
+              icon={faCubesStacked}
+              size="lg"
+              className="pause-btn"
+              color="#f6f6f6"
+            />
+          </div>
+
+          <p className="content">Less sugar </p>
+        </div>
+        <p className="content black">
+          {" "}
+          <b>2k+</b>
+          supporters{" "}
+          <div className="avatar-followers">
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                style={{
+                  border: "1px solid #95CFD9",
+                }}
+              />{" "}
+            </div>
+
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                style={{
+                  border: "1px solid #95CFD9",
+                }}
+              />{" "}
+            </div>
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                style={{
+                  border: "1px solid #95CFD9",
+                }}
+              />{" "}
+            </div>
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                style={{
+                  border: "1px solid #95CFD9",
+                }}
+              />{" "}
+            </div>
+          </div>
+        </p>
+        <div className="support-share">
           <FontAwesomeIcon
-            icon={faCubesStacked}
-            size="lg"
+            icon={faCirclePlus}
+            size="2x"
+            className="pause-btn"
+            color="#f6f6f6"
+          />
+          <FontAwesomeIcon
+            icon={faShareNodes}
+            size="xl"
             className="pause-btn"
             color="#f6f6f6"
           />
         </div>
-        <p> Less sugar </p>
-        <p>
-          {" "}
-          <b>2k+</b> supporters{" "}
-        </p>
       </div>
     </div>
   );

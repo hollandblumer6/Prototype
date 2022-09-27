@@ -6,12 +6,51 @@
 .suggestion {
   background: #f2f1ef;
   background: #efefef;
-  height: 4rem;
+  color: #272626;
+  height: 5rem;
   margin-top: 1rem;
   border-radius: 0.8rem;
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-around;
   align-items: center;
+  margin: 0rem 2rem 1rem 2rem;
+}
+
+.avatar {
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.name {
+  padding: 0.5rem 2rem;
+  border-radius: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fafafa;
+  margin-left: 1rem;
+}
+
+.user {
+  background: #ab784c;
+}
+
+.bold {
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.brand {
+  background: #95cfd9;
+}
+
+.idea {
+  background: #5d9345;
 }/*# sourceMappingURL=suggestion.css.map */

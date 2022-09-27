@@ -1,20 +1,20 @@
 .activity {
   display: flex;
+  flex-flow: column wrap;
   width: 100%;
   justify-content: center;
 }
 
 .activity-buttons {
-  margin: 2rem;
-  width: 17rem;
+  margin: 4rem 0 1.5rem 2rem;
   display: flex;
-  justify-content: space-between;
 }
 
 .activity .button {
   border: none;
   border-bottom: 1.7px solid rgb(21, 21, 21);
   background: none;
+  margin-left: 0.4rem;
   color: rgb(21, 21, 21);
 }
 
