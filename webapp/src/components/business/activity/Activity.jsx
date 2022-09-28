@@ -29,10 +29,10 @@ function Activity() {
   return (
     <div className="activity">
       <div className="activity-buttons">
-        <button className="button"> RECENT ACTIVITY </button>
-        <button className="button"> SUPPORT </button>
-        <button className="button"> DONATIONS </button>
-        <button className="button"> ACHIEVEMENTS </button>
+        <button className="button">
+          {" "}
+          <h2>RECENT ACTIVITY </h2>
+        </button>
       </div>
       <div>
         {suggestionList.map((key, idx) => (

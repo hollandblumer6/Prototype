@@ -14,7 +14,6 @@ $yellow: #f7cf00;
 }
 
 .suggestions-container .suggestions {
-  height: 9vh;
   width: 40rem;
   background: rgb(242, 242, 242);
   background: #d7cea9;
@@ -23,13 +22,11 @@ $yellow: #f7cf00;
   background: #e3ded6; //prettiest color before logo brown color
   background: #edece9; // color that works
   background: #efefef;
+  background: #ab784c;
   // background: #ede9e4;
   // background: rgb(243, 241, 236);
-  border: 1px solid #f6f6f6;
 
-  border-radius: 1.2rem;
-  margin-top: 1rem;
-  border-radius: 0.8rem;
+  border-radius: 10rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,8 +41,7 @@ $yellow: #f7cf00;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
-  padding: 0.1px 1rem;
+  padding: 0 1rem;
 }
 
 .avatar-circle {
@@ -64,7 +60,7 @@ $yellow: #f7cf00;
 }
 
 .black {
-  background-color: #ab784c;
+  background-color: #5d9345;
   padding: 0.3rem 2rem;
   display: flex;
   align-items: center;

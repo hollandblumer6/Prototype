@@ -23,13 +23,23 @@ function Info() {
           </div>
         </div>
 
-        <div className="grid">
-          <div className="cell"> 203 Brands</div>
-          <div className="cell"> Strength </div>
-          <div className="cell"> 2k High Fives </div>
-          <div className="cell"> Charlotte, NC</div>
-          <div className="cell"> Charlotte, NC</div>
-          <div className="cell"> Charlotte, NC</div>
+        <div className="info-container">
+          <div className="row">
+            <div className="cell"> Industry </div>
+
+            <div className="cell"> Strength </div>
+            <div className="cell"> Location </div>
+          </div>
+          <div className="row">
+            <div className="cell"> Active Projects </div>
+            <div className="cell"> Highlights </div>
+          </div>
+          <div className="row">
+            <div className="cell"> Supports Other companies </div>
+          </div>
+          <div className="row">
+            <div className="cell"> Supporters </div>
+          </div>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ function Header() {
       <div className="header">
         <div className="container">
           <Search />
-          <div class="logo">Divot</div>
+          <div class="logo">DIVOT</div>
           <Dropdown />
         </div>
       </div>

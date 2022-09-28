@@ -69,6 +69,7 @@ function Suggestions() {
             <div className="avatar-follower">
               {" "}
               <Avatar
+                sx={{ height: "35px", width: "35px" }}
                 style={{
                   border: "1px solid #95CFD9",
                 }}
@@ -78,6 +79,7 @@ function Suggestions() {
             <div className="avatar-follower">
               {" "}
               <Avatar
+                sx={{ height: "35px", width: "35px" }}
                 style={{
                   border: "1px solid #95CFD9",
                 }}
@@ -86,6 +88,7 @@ function Suggestions() {
             <div className="avatar-follower">
               {" "}
               <Avatar
+                sx={{ height: "35px", width: "35px" }}
                 style={{
                   border: "1px solid #95CFD9",
                 }}
@@ -94,6 +97,7 @@ function Suggestions() {
             <div className="avatar-follower">
               {" "}
               <Avatar
+                sx={{ height: "35px", width: "35px" }}
                 style={{
                   border: "1px solid #95CFD9",
                 }}

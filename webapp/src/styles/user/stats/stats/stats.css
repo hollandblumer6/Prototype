@@ -84,4 +84,10 @@
 
 .slidemenu #slide-item-3:checked ~ .slider .bar {
   margin-left: 66%;
+}
+
+.stats {
+  border: 1px solid #ebebeb;
+  background: white;
+  border-radius: 0.6rem;
 }/*# sourceMappingURL=stats.css.map */

@@ -4,12 +4,11 @@
 }
 
 .suggestion {
-  background: #f2f1ef;
   background: #efefef;
   color: #272626;
+  border-radius: 1rem;
   height: 5rem;
   margin-top: 1rem;
-  border-radius: 0.8rem;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -29,7 +28,7 @@
 
 .name {
   padding: 0.5rem 2rem;
-  border-radius: 6rem;
+  border-radius: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -39,7 +38,8 @@
 }
 
 .user {
-  background: #ab784c;
+  background: #fdfbfb;
+  color: #272626;
 }
 
 .bold {
@@ -48,7 +48,7 @@
 }
 
 .brand {
-  background: #95cfd9;
+  background: #ab784c;
 }
 
 .idea {

@@ -5,7 +5,7 @@ import "../../../styles/user/stats/stats/stats.css";
 
 function Stats() {
   return (
-    <div>
+    <div className="stats">
       <nav class="slidemenu">
         <input
           type="radio"

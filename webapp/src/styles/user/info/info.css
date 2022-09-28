@@ -5,6 +5,10 @@
   justify-content: space-between;
   height: 15rem;
   padding: 20px;
+  height: 23rem;
+  border: 1px solid #ebebeb;
+  background: white;
+  border-radius: 0.6rem;
 }
 
 .profile {
@@ -38,16 +42,23 @@
 
 .cell {
   background: #edece9;
-  background: #efefef;
-  border: 0.5px solid #ffffff;
+  background: rgb(224, 224, 224);
+  background: #e5e5e5;
   padding: 0.6vw 1.2vw;
   color: #272626;
-  border-radius: 8rem;
+  border-radius: 40px;
   white-space: nowrap;
+  margin: 0.1rem 0.2rem;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.info-container {
+  display: flex;
+  flex-direction: column;
   grid-gap: 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=info.css.map */

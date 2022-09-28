@@ -5,7 +5,6 @@
 }
 
 .suggestions-container .suggestions {
-  height: 9vh;
   width: 40rem;
   background: rgb(242, 242, 242);
   background: #d7cea9;
@@ -14,10 +13,8 @@
   background: #e3ded6;
   background: #edece9;
   background: #efefef;
-  border: 1px solid #f6f6f6;
-  border-radius: 1.2rem;
-  margin-top: 1rem;
-  border-radius: 0.8rem;
+  background: #ab784c;
+  border-radius: 10rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,7 +29,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 0.1px 1rem;
+  padding: 0 1rem;
 }
 
 .avatar-circle {
@@ -51,7 +48,7 @@
 }
 
 .black {
-  background-color: #ab784c;
+  background-color: #5d9345;
   padding: 0.3rem 2rem;
   display: flex;
   align-items: center;

@@ -14,14 +14,20 @@ function Suggestion({ user, company, suggestion, date }) {
       <div className="suggestion">
         <div className="user name">
           {" "}
-          <Avatar src="https://mma.prnewswire.com/media/1831942/noosa_Branding_Update_Logos_Horizontal_Lettering_Logo.jpg?p=publish" />{" "}
-          {user}
+          <Avatar
+            sx={{ height: "35px", width: "35px" }}
+            src="https://mma.prnewswire.com/media/1831942/noosa_Branding_Update_Logos_Horizontal_Lettering_Logo.jpg?p=publish"
+          />{" "}
+          <div className="text">{user}</div>
         </div>
         <p className="bold"> supports </p>
         <div className="brand name">
           {" "}
-          <Avatar src="https://pbs.twimg.com/profile_images/459053581052547072/BujcjGOX_400x400.jpeg" />{" "}
-          {company}{" "}
+          <Avatar
+            sx={{ height: "35px", width: "35px" }}
+            src="https://pbs.twimg.com/profile_images/459053581052547072/BujcjGOX_400x400.jpeg"
+          />{" "}
+          <div className="text">{company} </div>{" "}
         </div>
         <p className="bold"> with </p>
         <div className="idea name ">
@@ -32,10 +38,10 @@ function Suggestion({ user, company, suggestion, date }) {
               icon={faLeaf}
               size="lg"
               className="pause-btn"
-              color="#272626"
+              color="#f6f6f6"
             />
           </div>{" "}
-          {suggestion}{" "}
+          <div className="text">{suggestion}</div>{" "}
         </div>
         <p className="bold"> since </p>
         <div className="bold"> {date}</div>
