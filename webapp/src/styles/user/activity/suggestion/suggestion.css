@@ -11,13 +11,11 @@
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
-  width: 100%;
   align-items: center;
   margin: 0rem 2rem 1rem 2rem;
 }
 
 .avatar {
-  background: #fafafa;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +25,7 @@
 }
 
 .name {
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 3rem;
   display: flex;
   flex-direction: row;

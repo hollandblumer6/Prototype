@@ -9,15 +9,13 @@ function Dashboard() {
   return (
     <div>
       <section>
-        <div className="profile-info">
-          {" "}
-          <article>
-            <Info />
-          </article>
-          <article>
-            <Stats />
-          </article>
-        </div>
+        {" "}
+        <article>
+          <Info />
+        </article>
+        <article>
+          <Stats />
+        </article>
       </section>
       <section>
         <Activity />

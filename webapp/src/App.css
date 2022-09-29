@@ -41,6 +41,8 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: stretch;
+  grid-gap: 1rem;
+  margin: 1rem;
 }
 
 article {

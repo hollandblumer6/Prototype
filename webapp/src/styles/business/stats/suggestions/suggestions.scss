@@ -2,15 +2,9 @@ $red: #e74c3c;
 $beige: #e2e0d4;
 $yellow: #f7cf00;
 
-.suggestions-container-brand {
-}
-
 .suggestions-container {
   // background: #e2e0d4; //pretty beige color
-
   border-radius: 4%;
-  padding: 10px;
-  margin: 10px;
 }
 
 .suggestions-container .suggestions {
@@ -18,11 +12,9 @@ $yellow: #f7cf00;
   background: rgb(242, 242, 242);
   background: #d7cea9;
   background: #e7e3e0;
-  background: #e4ddcf;
   background: #e3ded6; //prettiest color before logo brown color
   background: #edece9; // color that works
-  background: #efefef;
-  background: #ab784c;
+  background: #e5e5e5;
   // background: #ede9e4;
   // background: rgb(243, 241, 236);
 
@@ -30,7 +22,7 @@ $yellow: #f7cf00;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0rem 2rem 1rem 2rem;
 }
 
@@ -42,10 +34,10 @@ $yellow: #f7cf00;
   align-items: center;
   justify-content: center;
   padding: 0 1rem;
+  margin-left: 0.7rem;
 }
 
 .avatar-circle {
-  background: #5d9345;
   border-radius: 50%;
   display: flex;
   flex-direction: row;
@@ -60,22 +52,32 @@ $yellow: #f7cf00;
 }
 
 .black {
-  background-color: #5d9345;
-  padding: 0.3rem 2rem;
+  background-color: #ab784c;
   display: flex;
   align-items: center;
-  border-radius: 4rem;
+  border-radius: 2rem;
+  padding: 0.1rem 1rem;
 }
 
 .avatar-followers {
   display: flex;
+  margin-left: 1.5rem;
+  justify-content: space-between;
 }
 .avatar-follower {
   margin-left: -1.3rem;
 }
 
 .support-share {
-  margin-left: 1rem;
   display: flex;
   align-items: center;
+  margin-right: 1rem;
+  width: 3.5rem;
+  justify-content: space-between;
+}
+
+.supporter {
+  border: 1px solid #f6f6f6;
+  height: 20px;
+  width: 20px;
 }

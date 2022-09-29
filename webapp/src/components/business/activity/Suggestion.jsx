@@ -6,6 +6,9 @@ import {
   faLeaf,
   faBoxOpen,
   faCubesStacked,
+  faEllipsis,
+  faPlusCircle,
+  faShareNodes,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Suggestion({ user, company, suggestion, date }) {
@@ -25,6 +28,7 @@ function Suggestion({ user, company, suggestion, date }) {
           {" "}
           <Avatar
             sx={{ height: "35px", width: "35px" }}
+            className="supporter"
             src="https://pbs.twimg.com/profile_images/459053581052547072/BujcjGOX_400x400.jpeg"
           />{" "}
           <div className="text">{company} </div>{" "}
@@ -45,6 +49,27 @@ function Suggestion({ user, company, suggestion, date }) {
         </div>
         <p className="bold"> since </p>
         <div className="bold"> {date}</div>
+        <div>
+          <FontAwesomeIcon
+            icon={faPlusCircle}
+            size="lg"
+            className="pause-btn"
+            color="#272626"
+          />
+
+          <FontAwesomeIcon
+            icon={faShareNodes}
+            size="lg"
+            className="pause-btn"
+            color="#272626"
+          />
+          <FontAwesomeIcon
+            icon={faEllipsis}
+            size="lg"
+            className="pause-btn"
+            color="#272626"
+          />
+        </div>
       </div>
     </div>
   );

@@ -13,9 +13,9 @@
   /*   background: #f9f8f4;
   background: rgb(249, 248, 248); */
   // background: #f6f6f6;
-  background: #fcfcfc;
-  border: 1px solid #fcfcfc;
-  border: 1px solid #ebebeb;
+  background: #f4f4f4;
+
+  // border: 1px solid #ebebeb;
 }
 
 .header .container {
@@ -69,4 +69,25 @@
   100% {
     background-position: 0 50%;
   }
+}
+
+// search
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 3rem;
+}
+
+input[type="text"] {
+  border: none;
+  background: none;
+  color: #8e8e8e;
+  font-size: medium;
+  margin-top: 2px;
+  margin-left: 2px;
+  outline-width: 0;
+  letter-spacing: 0.3px;
+  font-size: 13pt;
 }

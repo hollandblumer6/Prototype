@@ -20,15 +20,60 @@ function Suggestions() {
               icon={faBoxOpen}
               size="lg"
               className="pause-btn"
-              color="#f6f6f6"
+              color="#ffffff"
             />
           </div>
-          <p className="content"> Sustainable Packaging </p>
+          <div className="content"> Sustainable Packaging </div>
         </div>
-        <p className="content black">
+        <div className="content black">
           {" "}
           <b>2k+</b> supporters{" "}
-        </p>
+          <div className="avatar-followers">
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                className="supporter"
+                sx={{ height: "32px", width: "32px" }}
+              />{" "}
+            </div>
+
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                className="supporter"
+                sx={{ height: "32px", width: "32px" }}
+              />{" "}
+            </div>
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                className="supporter"
+                sx={{ height: "32px", width: "32px" }}
+              />{" "}
+            </div>
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                className="supporter"
+                sx={{ height: "32px", width: "32px" }}
+              />{" "}
+            </div>
+          </div>
+        </div>
+        <div className="support-share">
+          <FontAwesomeIcon
+            icon={faCirclePlus}
+            size="2x"
+            className="pause-btn"
+            color="#ffffff"
+          />
+          <FontAwesomeIcon
+            icon={faShareNodes}
+            size="xl"
+            className="pause-btn"
+            color="#ffffff"
+          />
+        </div>
       </div>
       <div className="suggestions">
         {" "}
@@ -38,15 +83,60 @@ function Suggestions() {
               icon={faLeaf}
               size="lg"
               className="pause-btn"
-              color="#f6f6f6"
+              color="#ffffff"
             />
           </div>
           <p className="content"> Join Platform </p>
         </div>
-        <p className="content black">
+        <div className="content black">
           {" "}
           <b> 2k+ </b> supporters{" "}
-        </p>
+          <div className="avatar-followers">
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                className="supporter"
+                sx={{ height: "35px", width: "35px" }}
+              />{" "}
+            </div>
+
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                className="supporter"
+                sx={{ height: "35px", width: "35px" }}
+              />{" "}
+            </div>
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                className="supporter"
+                sx={{ height: "35px", width: "35px" }}
+              />{" "}
+            </div>
+            <div className="avatar-follower">
+              {" "}
+              <Avatar
+                className="supporter"
+                sx={{ height: "35px", width: "35px" }}
+              />{" "}
+            </div>
+          </div>
+        </div>
+        <div className="support-share">
+          <FontAwesomeIcon
+            icon={faCirclePlus}
+            size="2x"
+            className="pause-btn"
+            color="#ffffff"
+          />
+          <FontAwesomeIcon
+            icon={faShareNodes}
+            size="xl"
+            className="pause-btn"
+            color="#ffffff"
+          />
+        </div>
       </div>
       <div className="suggestions">
         <div className="suggestion-circle">
@@ -55,7 +145,7 @@ function Suggestions() {
               icon={faCubesStacked}
               size="lg"
               className="pause-btn"
-              color="#f6f6f6"
+              color="#ffffff"
             />
           </div>
 
@@ -69,38 +159,30 @@ function Suggestions() {
             <div className="avatar-follower">
               {" "}
               <Avatar
-                sx={{ height: "35px", width: "35px" }}
-                style={{
-                  border: "1px solid #95CFD9",
-                }}
+                sx={{ height: "30px", width: "30px" }}
+                className="supporter"
               />{" "}
             </div>
 
             <div className="avatar-follower">
               {" "}
               <Avatar
-                sx={{ height: "35px", width: "35px" }}
-                style={{
-                  border: "1px solid #95CFD9",
-                }}
+                className="supporter"
+                sx={{ height: "30px", width: "30px" }}
               />{" "}
             </div>
             <div className="avatar-follower">
               {" "}
               <Avatar
-                sx={{ height: "35px", width: "35px" }}
-                style={{
-                  border: "1px solid #95CFD9",
-                }}
+                className="supporter"
+                sx={{ height: "30px", width: "30px" }}
               />{" "}
             </div>
             <div className="avatar-follower">
               {" "}
               <Avatar
-                sx={{ height: "35px", width: "35px" }}
-                style={{
-                  border: "1px solid #95CFD9",
-                }}
+                className="supporter"
+                sx={{ height: "30px", width: "30px" }}
               />{" "}
             </div>
           </div>
@@ -110,13 +192,13 @@ function Suggestions() {
             icon={faCirclePlus}
             size="2x"
             className="pause-btn"
-            color="#f6f6f6"
+            color="#ffffff"
           />
           <FontAwesomeIcon
             icon={faShareNodes}
             size="xl"
             className="pause-btn"
-            color="#f6f6f6"
+            color="#ffffff"
           />
         </div>
       </div>

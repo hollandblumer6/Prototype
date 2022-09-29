@@ -2,41 +2,40 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 15rem;
-  padding: 20px;
-  height: 23rem;
-  border: 1px solid #ebebeb;
-  background: #ffff;
-  border-radius: 0.6rem;
+  justify-content: center;
+  color: #272626;
+  white-space: nowrap;
 }
 
 .profile {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1rem;
-  width: 13.5rem;
-  color: #272626;
 }
 
-.profile .buttons {
-  width: 5.5rem;
+.profile-info {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  height: 55px;
+  align-items: space-between;
   justify-content: space-between;
 }
 
-.buttons button {
-  background: #ab784c;
-  border: 0.8px solid #dbdbdb;
-  color: #f6f6f6;
-  border-radius: 0.5rem;
-  padding: 0.4rem 1.2rem;
+.action-buttons {
+  display: flex;
+  flex-direction: row;
 }
 
-.buttons button:nth-child(2) {
+.action-buttons button {
+  background: #ab784c;
+  border: 0.8px solid #fefefe;
+  color: #f6f6f6;
+  border-radius: 0.6rem;
+  padding: 0.4rem 0.6rem;
+  margin-left: 2rem;
+}
+
+.action-buttons button:nth-child(2) {
   margin-left: 0.2rem;
 }
 
@@ -49,6 +48,8 @@
   border-radius: 40px;
   white-space: nowrap;
   margin: 0.1rem 0.2rem;
+  display: flex;
+  align-items: center;
 }
 
 .info-container {
@@ -60,5 +61,36 @@
 .row {
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.flex-start {
+  margin-left: 2rem;
+}
+
+.strength {
+  display: flex;
+  margin-left: 0.3rem;
+}
+
+.light {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-left: 2px;
+}
+
+.green {
+  background-color: #5d9345;
+}
+
+.white {
+  background-color: #fcfcfc;
+}
+
+.grey {
+  color: #8e8e8e;
+}
+
+.username {
+  font-weight: 600;
 }
