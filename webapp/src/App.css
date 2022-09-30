@@ -41,6 +41,7 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: stretch;
+  align-items: center;
   grid-gap: 1rem;
   margin: 1rem;
 }

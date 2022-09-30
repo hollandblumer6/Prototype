@@ -2,7 +2,14 @@ import React from "react";
 import Avatar from "@mui/material/Avatar";
 import "../../../styles/user/info/info.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIndustry, faEllipsis } from "@fortawesome/free-solid-svg-icons";
+import {
+  faIndustry,
+  faEllipsis,
+  faLocationDot,
+  faCircleCheck,
+  faArrowUpRightFromSquare,
+  faCircleInfo,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Info() {
   return (
@@ -19,8 +26,15 @@ function Info() {
         <div className="profile-info">
           <div className="row flex-start">
             <div className="username"> noosa </div>
+            <div className="left">
+              <FontAwesomeIcon
+                icon={faCircleCheck}
+                size="small"
+                color="#5d9345"
+              />
+            </div>
             <div className="action-buttons">
-              <button> Support </button>
+              <button> Suggest </button>
               <button>
                 <FontAwesomeIcon icon={faEllipsis} size="small" />
               </button>
@@ -28,7 +42,11 @@ function Info() {
           </div>
           <div className="row flex-start">
             <div className="grey">part of </div>
-            <div className="bold">sovosbrands</div>
+            <div className="username">sovosbrands</div>
+          </div>
+          <div className="row flex-start">
+            <FontAwesomeIcon icon={faLocationDot} size="small" />
+            <div className="grey left">Bellevue, CO</div>
           </div>
         </div>
       </div>
@@ -36,12 +54,14 @@ function Info() {
       <div className="info-container">
         <div className="row">
           <div className="cell">
-            <FontAwesomeIcon icon={faIndustry} size="small" /> Dairy{" "}
+            <div className="username">Dairy</div>
+            <div className="grey left">Industry</div>
+            {/* <FontAwesomeIcon icon={faIndustry} size="small" color="#5d9345" /> */}
           </div>
 
           <div className="cell">
             {" "}
-            Strength{" "}
+            <div className="username">Strength</div>{" "}
             <div className="strength">
               {" "}
               <div className="light green"> </div>
@@ -53,22 +73,84 @@ function Info() {
           </div>
           <div className="cell">
             {" "}
-            Activity <b>Weekly</b>
+            <div className="username">Weekly</div>
+            <div className="grey left">Activity</div>
           </div>
         </div>
         <div className="row">
           <div className="cell">
             {" "}
-            <b>6</b>Active Projects{" "}
+            <div className="emphasis">6</div>
+            <div className="username">Active Projects </div>
+            <div className="left">
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="small" />
+            </div>
           </div>
           <div className="cell">
             {" "}
-            Supports <b>2K+</b> brands{" "}
+            <div className="emphasis">100</div>
+            <div className="username">Improvements </div>
           </div>
         </div>
 
         <div className="row">
-          <div className="cell"> Supporters </div>
+          <div className="cell brown">
+            <FontAwesomeIcon
+              icon={faCircleInfo}
+              size="xs"
+              color="#dddd"
+              className="top"
+            />{" "}
+            <div className="avatar-supporters">
+              <div className="avatar-supporter">
+                {" "}
+                <Avatar
+                  className="supporter"
+                  sx={{ height: "32px", width: "32px" }}
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1599px-Flag_of_Ukraine.svg.png"
+                />{" "}
+              </div>
+
+              <div className="avatar-supporter">
+                {" "}
+                <Avatar
+                  className="supporter"
+                  sx={{ height: "32px", width: "32px" }}
+                  style={{ background: "white" }}
+                  src="http://women.ncr-iran.org/wp-content/uploads/2019/10/NCRI-Women-Committee-Logo.png"
+                />{" "}
+              </div>
+              <div className="avatar-supporter">
+                {" "}
+                <Avatar
+                  className="supporter"
+                  sx={{ height: "32px", width: "32px" }}
+                  src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.18169-9/15094485_10154789646058793_2692844336673094070_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=VJ0-mR4QQe0AX98GIUE&_nc_ht=scontent-atl3-1.xx&oh=00_AT9orZWDrLjFB_V1zwX0r9XksJ3j1_bIrU4C74zkAAUAsA&oe=635B460F"
+                />{" "}
+              </div>
+              <div className="avatar-supporter">
+                {" "}
+                <Avatar
+                  className="supporter"
+                  sx={{ height: "32px", width: "32px" }}
+                  src="https://anthropology.uconn.edu/wp-content/uploads/sites/944/2020/07/BLM-Icon.jpg"
+                />{" "}
+              </div>
+              <div className="avatar-supporter">
+                {" "}
+                <Avatar
+                  className="supporter"
+                  sx={{ height: "32px", width: "32px" }}
+                  src="https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg"
+                />{" "}
+              </div>
+            </div>
+          </div>
+          <div className="avatar-supporter">
+            <div className="extra-support">
+              <FontAwesomeIcon icon={faEllipsis} size="small" color="#f4f4f4" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

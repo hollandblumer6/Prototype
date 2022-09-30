@@ -1,21 +1,21 @@
 .suggestions-container {
-  border-radius: 4%;
+  height: 270px;
+  overflow-y: scroll;
 }
 
 .suggestions-container .suggestions {
   width: 40rem;
-  background: rgb(242, 242, 242);
-  background: #d7cea9;
-  background: #e7e3e0;
-  background: #e3ded6;
-  background: #edece9;
   background: #e5e5e5;
+  background: #f1f1f1;
+  border: 1px solid #ffffff;
   border-radius: 10rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   margin: 0rem 2rem 1rem 2rem;
+  padding: 0.5rem;
+  margin-top: 1.6rem;
 }
 
 .suggestion-circle {
@@ -25,7 +25,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 0 1rem;
+  padding: 0.2rem 1rem;
   margin-left: 0.7rem;
 }
 
@@ -35,10 +35,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #5d9345;
 }
 
 .content {
-  margin-left: 0.5rem;
   border-radius: 1rem;
   color: white;
 }
@@ -53,19 +55,31 @@
 
 .avatar-followers {
   display: flex;
-  margin-left: 1.5rem;
-  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
 }
 
 .avatar-follower {
-  margin-left: -1.3rem;
+  margin-left: -1.2rem;
+  padding: 0.2rem 0;
+}
+
+.avatar-supporters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar-supporter {
+  margin-right: 0.4rem;
+  padding: 0.2rem 0;
 }
 
 .support-share {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-right: 1rem;
-  width: 3.5rem;
+  width: 3.2rem;
   justify-content: space-between;
 }
 

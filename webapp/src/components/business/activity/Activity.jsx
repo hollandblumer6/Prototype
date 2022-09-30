@@ -5,9 +5,9 @@ import "../../../styles/user/activity/activity.css";
 function Activity() {
   const suggestionList = [
     {
-      company: "Kiawah Island Club",
-      suggestion: "Recyling on the beach",
-      date: "07/11/2021",
+      company: "SpaceX",
+      suggestion: "Space Cleanup Project",
+      date: "09/21/2022",
     },
     {
       company: "Kiawah Island Club",
@@ -25,16 +25,15 @@ function Activity() {
       date: "07/11/2021",
     },
   ];
-  const user = "@hollandblumer";
+  const user = "noosa";
   return (
     <div className="activity">
       <div className="activity-buttons">
-        <button className="button">
-          {" "}
-          <h2>RECENT ACTIVITY </h2>
-        </button>
+        <div className="activity-buttons">
+          <button className="button"> Recent Activity </button>
+        </div>
       </div>
-      <div>
+      <div className="actual-activity">
         {suggestionList.map((key, idx) => (
           <div>
             <Suggestion

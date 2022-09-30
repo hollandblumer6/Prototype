@@ -15,7 +15,7 @@ function Stats() {
           checked
         />
         <label for="slide-item-1">
-          <span>SUGGESTIONS</span>
+          <span>Suggestions</span>
         </label>
 
         <input
@@ -25,7 +25,7 @@ function Stats() {
           class="slide-toggle"
         />
         <label for="slide-item-2">
-          <span>HIGHLIGHTS</span>
+          <span>Impact</span>
         </label>
 
         <input
@@ -35,7 +35,7 @@ function Stats() {
           class="slide-toggle"
         />
         <label for="slide-item-3">
-          <span>GROWTH</span>
+          <span>Projects</span>
         </label>
 
         <div class="clear"></div>

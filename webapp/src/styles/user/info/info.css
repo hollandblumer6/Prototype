@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   color: #272626;
   white-space: nowrap;
+  margin-top: 1.5rem;
 }
 
 .profile {
@@ -16,7 +17,7 @@
 .profile-info {
   display: flex;
   flex-direction: column;
-  height: 55px;
+  height: 80px;
   align-items: space-between;
   justify-content: space-between;
 }
@@ -32,30 +33,32 @@
   color: #f6f6f6;
   border-radius: 0.6rem;
   padding: 0.4rem 0.6rem;
-  margin-left: 2rem;
+  margin-left: 1.8rem;
 }
 
 .action-buttons button:nth-child(2) {
   margin-left: 0.2rem;
 }
 
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 1rem;
+  margin-top: 2.5rem;
+}
+
 .cell {
   background: #edece9;
   background: rgb(224, 224, 224);
   background: #e5e5e5;
-  padding: 0.6vw 1.2vw;
+  background: #f1f1f1;
+  padding: 0.6vw 1vw;
   color: #272626;
   border-radius: 40px;
   white-space: nowrap;
   margin: 0.1rem 0.2rem;
   display: flex;
-  align-items: center;
-}
-
-.info-container {
-  display: flex;
-  flex-direction: column;
-  grid-gap: 1rem;
 }
 
 .row {
@@ -70,6 +73,7 @@
 .strength {
   display: flex;
   margin-left: 0.3rem;
+  margin-top: 0.5rem;
 }
 
 .light {
@@ -84,13 +88,68 @@
 }
 
 .white {
-  background-color: #fcfcfc;
+  background-color: #8e8e8e;
+}
+
+.white-text {
+  color: white;
+  font-weight: 500;
 }
 
 .grey {
   color: #8e8e8e;
+  margin-right: 0.25rem;
+}
+
+.left {
+  margin-left: 0.25rem;
 }
 
 .username {
   font-weight: 600;
+}
+
+.emphasis {
+  color: #5d9345;
+  margin: 0 0.3rem;
+  font-weight: 700;
+}
+
+.extra-followers {
+  height: 32px;
+  width: 32px;
+  border: 1px solid #fafafa;
+  background: #5d9345;
+  border-radius: 50%;
+  position: relative;
+  z-index: 9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 8pt;
+  font-weight: 600;
+  color: #fafafa;
+}
+
+.extra-support {
+  background: #ab784c;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.brown {
+  background: #ab784c;
+  padding: 0.2vw 1vw;
+  margin-top: 3vh;
+}
+
+.top {
+  margin-top: 0.4rem;
+  margin-right: 0.4rem;
 }/*# sourceMappingURL=info.css.map */

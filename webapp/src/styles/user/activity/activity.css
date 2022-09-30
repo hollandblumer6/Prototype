@@ -3,28 +3,59 @@
   flex-flow: column wrap;
   width: 100%;
   justify-content: center;
-  border-radius: 0.4rem;
+}
+
+.actual-activity {
+  background: #f4f4f4;
+  padding: 0.5rem 0;
+  margin: 0 1.3rem;
+  border-radius: 0.6rem;
 }
 
 .activity-buttons {
-  margin: 4rem 0 1.5rem 2rem;
+  margin: 0.5rem 0 1rem 1rem;
   display: flex;
 }
 
 .activity .button {
   border: none;
   background: none;
-  margin-left: 0.4rem;
+  margin-left: 0.7rem;
+  border-bottom: 2.2px solid #8e8e8e;
+  padding-bottom: 0.8rem;
   color: rgb(21, 21, 21);
+  font-size: 12pt;
+  margin-top: 1rem;
 }
 
 .activity .button:hover {
   border: none;
+  border-bottom: 1.7px solid #8e8e8e;
   background: none;
-  color: rgb(182, 179, 179);
+  color: #8e8e8e;
+}
+
+.button-inactive {
+  border: none;
+  border-bottom: 1.7px solid #8e8e8e;
+  background: none;
+  color: #8e8e8e;
+  font-size: 12pt;
+  margin-left: 0.9rem;
 }
 
 .activity .button:active {
   border: none;
   background: none;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }/*# sourceMappingURL=activity.css.map */

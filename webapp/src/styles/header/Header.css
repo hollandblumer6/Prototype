@@ -13,6 +13,8 @@
   /*   background: #f9f8f4;
   background: rgb(249, 248, 248); */
   background: #f4f4f4;
+  border: 1px solid #f2f2f1;
+  border: 1px solid #f1f1f1;
 }
 
 .header .container {
@@ -90,8 +92,8 @@ input[type=text] {
   background: none;
   color: #8e8e8e;
   font-size: medium;
-  margin-top: 2px;
-  margin-left: 2px;
+  margin-top: 3px;
+  margin-left: 2.5px;
   outline-width: 0;
   letter-spacing: 0.3px;
   font-size: 13pt;

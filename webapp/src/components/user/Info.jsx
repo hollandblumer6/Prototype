@@ -17,9 +17,9 @@ function Info() {
           />{" "}
         </div>
         <div>
-          <p> @hollandblumer </p>
+          <div> @noosa </div>
           <div className="buttons">
-            <button> Support </button>
+            <button> Suggest </button>
             <button> ... </button>
           </div>
         </div>
