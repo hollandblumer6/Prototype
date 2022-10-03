@@ -7,6 +7,7 @@ import {
   faEllipsis,
   faLocationDot,
   faCircleCheck,
+  faDumbbell,
   faArrowUpRightFromSquare,
   faCircleInfo,
 } from "@fortawesome/free-solid-svg-icons";
@@ -32,6 +33,7 @@ function Info() {
                 size="small"
                 color="#5d9345"
               />
+              <FontAwesomeIcon icon={faDumbbell} size="small" color="#5d9345" />
             </div>
             <div className="action-buttons">
               <button> Suggest </button>

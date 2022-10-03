@@ -1,51 +1,45 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createSuggestion = /* GraphQL */ `
-  mutation CreateSuggestion(
-    $input: CreateSuggestionInput!
-    $condition: ModelSuggestionConditionInput
+export const createTodo = /* GraphQL */ `
+  mutation CreateTodo(
+    $input: CreateTodoInput!
+    $condition: ModelTodoConditionInput
   ) {
-    createSuggestion(input: $input, condition: $condition) {
+    createTodo(input: $input, condition: $condition) {
       id
-      title
+      name
       description
-      filePath
-      like
       owner
       createdAt
       updatedAt
     }
   }
 `;
-export const updateSuggestion = /* GraphQL */ `
-  mutation UpdateSuggestion(
-    $input: UpdateSuggestionInput!
-    $condition: ModelSuggestionConditionInput
+export const updateTodo = /* GraphQL */ `
+  mutation UpdateTodo(
+    $input: UpdateTodoInput!
+    $condition: ModelTodoConditionInput
   ) {
-    updateSuggestion(input: $input, condition: $condition) {
+    updateTodo(input: $input, condition: $condition) {
       id
-      title
+      name
       description
-      filePath
-      like
       owner
       createdAt
       updatedAt
     }
   }
 `;
-export const deleteSuggestion = /* GraphQL */ `
-  mutation DeleteSuggestion(
-    $input: DeleteSuggestionInput!
-    $condition: ModelSuggestionConditionInput
+export const deleteTodo = /* GraphQL */ `
+  mutation DeleteTodo(
+    $input: DeleteTodoInput!
+    $condition: ModelTodoConditionInput
   ) {
-    deleteSuggestion(input: $input, condition: $condition) {
+    deleteTodo(input: $input, condition: $condition) {
       id
-      title
+      name
       description
-      filePath
-      like
       owner
       createdAt
       updatedAt

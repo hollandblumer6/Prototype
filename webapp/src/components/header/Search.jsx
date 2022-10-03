@@ -7,10 +7,10 @@ function Search() {
   return (
     <div className="search">
       <FontAwesomeIcon icon={faMagnifyingGlass} size="md" color="#262626" />
-      <form>
+      {/* <form>
         {" "}
         <input type="text" placeholder="Search"></input>
-      </form>
+      </form> */}
     </div>
   );
 }

@@ -14,7 +14,7 @@ function Stats() {
           checked
         />
         <label for="slide-item-1">
-          <span>SOIL</span>
+          <span>Soil</span>
         </label>
 
         <input
@@ -24,7 +24,7 @@ function Stats() {
           class="slide-toggle"
         />
         <label for="slide-item-2">
-          <span>IMPACT</span>
+          <span>Impact</span>
         </label>
 
         <input
@@ -34,7 +34,7 @@ function Stats() {
           class="slide-toggle"
         />
         <label for="slide-item-3">
-          <span>GROWTH</span>
+          <span>Growth</span>
         </label>
 
         <div class="clear"></div>

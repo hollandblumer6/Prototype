@@ -9,11 +9,22 @@
       "UnauthRoleName": "amplify-webapp-dev-180651-unauthRole",
       "StackName": "amplify-webapp-dev-180651",
       "StackId": "arn:aws:cloudformation:us-east-1:354285736167:stack/amplify-webapp-dev-180651/5db9ad70-3867-11ed-a692-0ae00a88f7bf",
-      "AmplifyAppId": "d375hpzyg0cu1k"
+      "AmplifyAppId": "d375hpzyg0cu1k",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-webapp-dev-180651-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "auth": {
-        "webapp3cb9f537": {}
+        "webapp3cb9f537": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "webapp3cb9f537CustomMessage": {
+          "REDIRECTURL": "",
+          "EMAILSUBJECT": "",
+          "EMAILMESSAGE": "",
+          "deploymentBucketName": "amplify-webapp-dev-180651-deployment",
+          "s3Key": "amplify-builds/webapp3cb9f537CustomMessage-5337653235453262716b-build.zip"
+        }
       }
     }
   }

@@ -29,9 +29,7 @@ function Activity() {
   return (
     <div className="activity">
       <div className="activity-buttons">
-        <div className="activity-buttons">
-          <button className="button"> Recent Activity </button>
-        </div>
+        <button className="button"> Recent Activity </button>
       </div>
       <div className="actual-activity">
         {suggestionList.map((key, idx) => (
